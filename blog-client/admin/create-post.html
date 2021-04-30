@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CSS file -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!-- CSS file -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="container">
+        <h1>New post</h1>
+
+        <form id="create-post-form" class="form-group">
+            <label for="">Title</label>
+            <input type="text" name="title" id="title-textarea" class="form-control mb-2" ></input>
+            <label for="">Author</label>
+            <input type="text" name="author" id="author-textarea" class="form-control mb-2" ></input>
+            <label for="">Content</label>
+            <textarea name="content" id="content-textarea" class="form-control"></textarea>
+
+            <input class="btn btn-primary" type="submit" value="Create">
+            <a class="btn btn-secondary" href="index.html">&#x2190; back</a>
+        </form>
+    </div>
+
+    <script src="js/create-post.js"></script>
+</body>
+</html>
